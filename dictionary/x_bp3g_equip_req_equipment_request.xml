@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" type="collection">
+        <element label="Additional Requirements" max_length="40" name="additional_requirements" type="string"/>
+        <element choice="1" label="Business Continuity" mandatory="true" max_length="40" name="business_continuity" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Connected to Network" max_length="40" name="connected_to_network" type="choice">
+            <choice/>
+        </element>
+        <element label="Contact Person" max_length="40" name="contact_person" type="string"/>
+        <element choice="3" default="No" label="Data Sent To Kaiser Servers" mandatory="true" max_length="40" name="data_sent_to_servers" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Delay Problematic" mandatory="true" max_length="40" name="delay_problematic" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="EIN" max_length="40" name="ein" type="string"/>
+        <element choice="1" label="Emergency Justification" mandatory="true" max_length="40" name="emergency_justification" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Equipment Description" mandatory="true" max_length="40" name="equipment_description" type="string"/>
+        <element label="Equipment Justification" max_length="40" name="equipment_justification" type="string"/>
+        <element choice="1" label="Facility" mandatory="true" max_length="40" name="facility" type="choice">
+            <choice>
+                <element label="San Francisco" sequence="0" value="San Francisco"/>
+                <element label="Los Angeles" sequence="1" value="Los Angeles"/>
+                <element label="San Diego" sequence="2" value="San Diego"/>
+            </choice>
+        </element>
+        <element choice="1" label="Fulfills Regulations" mandatory="true" max_length="40" name="fulfills_regulations" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Includes Vendor PC" mandatory="true" max_length="40" name="includes_vendor_pc" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Model Number" mandatory="true" max_length="40" name="model_number" type="string"/>
+        <element choice="1" label="Needs IT Assistance" mandatory="true" max_length="40" name="need_it_assistance" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="New Technology" mandatory="true" max_length="40" name="new_technology" type="choice">
+            <choice>
+                <element label="Yes" sequence="10" value="Yes"/>
+                <element label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="No Loaner Options" mandatory="true" max_length="40" name="no_loaner_options" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="20" name="price" type="price"/>
+        <element choice="1" default="No" label="Probe Or Scope" max_length="40" name="probe_or_scope" type="choice">
+            <choice>
+                <element label="Yes" sequence="10" value="Yes"/>
+                <element label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element label="Related Accessories" max_length="40" name="related_accessories" type="string"/>
+        <element choice="1" label="Replacing Nonworking Equipment" mandatory="true" max_length="40" name="replacing_nonworking_equipment" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Requestor Dept" max_length="40" name="requestor_dept" type="string"/>
+        <element label="Requestor Email" mandatory="true" max_length="40" name="requestor_email" type="string"/>
+        <element label="Requestor Name" mandatory="true" max_length="40" name="requestor_name" type="string"/>
+        <element label="Requestor Phone" mandatory="true" max_length="40" name="requestor_phone" type="phone_number_e164"/>
+        <element choice="3" default="California" label="Service Area" mandatory="true" max_length="40" name="service_area" type="choice">
+            <choice>
+                <element label="California" sequence="10" value="California"/>
+                <element label="Texas" sequence="20" value="Texas"/>
+                <element label="Maryland" sequence="30" value="Maryland"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Static IP Address" mandatory="true" max_length="40" name="static_ip_address" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Submission Date" max_length="40" name="submission_date" type="glide_date_time"/>
+        <element choice="1" label="Takes Images" mandatory="true" max_length="40" name="takes_images" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element choice="3" default="No" label="Vendor Installation Document" mandatory="true" max_length="40" name="vendor_installation_document" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Vendor Name" mandatory="true" max_length="40" name="vendor_name" type="string"/>
+        <element label="Vendor Website" max_length="1024" name="vendor_website" type="url"/>
+    </element>
+</database>

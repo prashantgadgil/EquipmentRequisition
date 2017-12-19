@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="related_accessories" label="Related Accessories" language="en" table="x_bp3g_equip_req_equipment_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>related_accessories</element>
+            <help/>
+            <hint/>
+            <label>Related Accessories</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <plural>Related Accessories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 19:36:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d7b9910bdb438700e93a9c27db961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Related Accessories</sys_name>
+            <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_equip_req_equipment_request_related_accessories_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 19:36:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
