@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" type="collection">
-        <element label="Additional Requirements" max_length="40" name="additional_requirements" type="string"/>
+        <element label="Additional Requirements" max_length="4000" name="additional_requirements" type="string"/>
         <element choice="1" label="Business Continuity" mandatory="true" max_length="40" name="business_continuity" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -32,13 +32,18 @@
                 <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element label="Equipment Description" mandatory="true" max_length="40" name="equipment_description" type="string"/>
-        <element label="Equipment Justification" max_length="40" name="equipment_justification" type="string"/>
-        <element choice="1" label="Facility" mandatory="true" max_length="40" name="facility" type="choice">
+        <element label="Equipment Description" mandatory="true" max_length="4000" name="equipment_description" type="string"/>
+        <element label="Equipment Justification" max_length="4000" name="equipment_justification" type="string"/>
+        <element choice="1" dependent="service_area" dependent_on_field="service_area" label="Facility" max_length="40" name="facility" type="choice" use_dependent_field="true">
             <choice>
-                <element label="San Francisco" sequence="0" value="San Francisco"/>
-                <element label="Los Angeles" sequence="1" value="Los Angeles"/>
-                <element label="San Diego" sequence="2" value="San Diego"/>
+                <element dependent_value="Maryland" label="Annapolis" sequence="0" value="Annapolis"/>
+                <element dependent_value="Texas" label="Houston" sequence="0" value="Houston"/>
+                <element dependent_value="California" label="San Diego" sequence="0" value="San Diego"/>
+                <element dependent_value="Maryland" label="College Park" sequence="1" value="College Park"/>
+                <element dependent_value="Texas" label="Dallas" sequence="1" value="Dallas"/>
+                <element dependent_value="California" label="Los Angeles" sequence="1" value="Los Angeles"/>
+                <element dependent_value="Texas" label="Austin" sequence="2" value="Austin"/>
+                <element dependent_value="California" label="San Francisco" sequence="2" value="San Francisco"/>
             </choice>
         </element>
         <element choice="1" label="Fulfills Regulations" mandatory="true" max_length="40" name="fulfills_regulations" type="choice">
@@ -79,14 +84,20 @@
                 <element label="No" sequence="20" value="No"/>
             </choice>
         </element>
-        <element label="Related Accessories" max_length="40" name="related_accessories" type="string"/>
+        <element label="Related Accessories" max_length="4000" name="related_accessories" type="string"/>
         <element choice="1" label="Replacing Nonworking Equipment" mandatory="true" max_length="40" name="replacing_nonworking_equipment" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element label="Requestor Dept" max_length="40" name="requestor_dept" type="string"/>
+        <element choice="1" label="Requestor Dept" mandatory="true" max_length="40" name="requestor_dept" type="string">
+            <choice>
+                <element label="Hopsital" sequence="0" value="Hospital"/>
+                <element label="Clinical" sequence="1" value="Clinical"/>
+                <element label="Administration" sequence="2" value="Administration"/>
+            </choice>
+        </element>
         <element label="Requestor Email" mandatory="true" max_length="40" name="requestor_email" type="string"/>
         <element label="Requestor Name" mandatory="true" max_length="40" name="requestor_name" type="string"/>
         <element label="Requestor Phone" mandatory="true" max_length="40" name="requestor_phone" type="phone_number_e164"/>

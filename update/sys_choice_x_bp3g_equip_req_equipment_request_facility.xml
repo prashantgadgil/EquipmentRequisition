@@ -2,10 +2,67 @@
 <record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="facility" table="x_bp3g_equip_req_equipment_request" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>Maryland</dependent_value>
             <element>facility</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Annapolis</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:32:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>129b2953db8b8700e93a9c27db961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:32:33</sys_updated_on>
+            <value>Annapolis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Texas</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Houston</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>886b2153db8b8700e93a9c27db961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:31:35</sys_updated_on>
+            <value>Houston</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>California</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Diego</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>060bed13db8b8700e93a9c27db961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:30:05</sys_updated_on>
+            <value>San Diego</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facility</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>San Francisco</label>
             <language>en</language>
             <name>x_bp3g_equip_req_equipment_request</name>
@@ -15,16 +72,73 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2681e94fdb438700e93a9c27db961954</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:24:08</sys_updated_on>
+            <value>San Francisco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Texas</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Sn Antonio</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c6be553db8b8700e93a9c27db9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:10:08</sys_updated_on>
-            <value>San Francisco</value>
+            <sys_updated_on>2017-12-20 15:31:35</sys_updated_on>
+            <value>Sn Antonio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maryland</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>College Park</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:32:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e9b2953db8b8700e93a9c27db961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:32:33</sys_updated_on>
+            <value>College Park</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Texas</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dallas</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>086b2153db8b8700e93a9c27db961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:31:35</sys_updated_on>
+            <value>Dallas</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>facility</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Los Angeles</label>
             <language>en</language>
             <name>x_bp3g_equip_req_equipment_request</name>
@@ -34,16 +148,54 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2681e94fdb438700e93a9c27db961956</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:24:08</sys_updated_on>
+            <value>Los Angeles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>California</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Los Angeles</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>820bed13db8b8700e93a9c27db961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:10:08</sys_updated_on>
+            <sys_updated_on>2017-12-20 15:30:05</sys_updated_on>
             <value>Los Angeles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Texas</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Austin</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>846b2153db8b8700e93a9c27db961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:31:35</sys_updated_on>
+            <value>Austin</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>facility</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>San Diego</label>
             <language>en</language>
             <name>x_bp3g_equip_req_equipment_request</name>
@@ -53,10 +205,29 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6281e94fdb438700e93a9c27db961958</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 15:24:08</sys_updated_on>
+            <value>San Diego</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>California</dependent_value>
+            <element>facility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Francisco</label>
+            <language>en</language>
+            <name>x_bp3g_equip_req_equipment_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 15:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>020bed13db8b8700e93a9c27db961927</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:10:08</sys_updated_on>
-            <value>San Diego</value>
+            <sys_updated_on>2017-12-20 15:30:05</sys_updated_on>
+            <value>San Francisco</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>facility</element>
