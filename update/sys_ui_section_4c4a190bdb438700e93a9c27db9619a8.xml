@@ -5,13 +5,13 @@
             <element>vendor_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>504a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>e8bf0a97dbcb8700e93a9c27db96190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>vendor_website</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>d04a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>6cbf0a97dbcb8700e93a9c27db96190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,27 +33,27 @@
             <element>model_number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>544a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>ecbf0a97dbcb8700e93a9c27db96190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
+            <element>equipment_photo</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>d44a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>60bf0a97dbcb8700e93a9c27db96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,55 +61,69 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>584a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>e0bf0a97dbcb8700e93a9c27db96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ein</element>
+            <element>price</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>d84a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>64bf0a97dbcb8700e93a9c27db96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ein</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>e4bf0a97dbcb8700e93a9c27db96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>related_accessories</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>5c4a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>68bf0a97dbcb8700e93a9c27db96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>additional_requirements</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 19:38:18</sys_created_on>
-            <sys_id>dc4a590bdb438700e93a9c27db96194e</sys_id>
+            <sys_created_on>2017-12-20 18:10:16</sys_created_on>
+            <sys_id>e8bf0a97dbcb8700e93a9c27db96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 19:38:18</sys_updated_on>
+            <sys_updated_on>2017-12-20 18:10:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -34,6 +34,7 @@
         </element>
         <element label="Equipment Description" mandatory="true" max_length="4000" name="equipment_description" type="string"/>
         <element label="Equipment Justification" max_length="4000" name="equipment_justification" type="string"/>
+        <element label="Equipment Photo" max_length="40" name="equipment_photo" type="user_image"/>
         <element choice="1" dependent="service_area" dependent_on_field="service_area" label="Facility" max_length="40" name="facility" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Maryland" label="Annapolis" sequence="0" value="Annapolis"/>
