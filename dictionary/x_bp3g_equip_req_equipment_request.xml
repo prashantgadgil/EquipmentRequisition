@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" sizeclass="1" type="collection">
+    <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" sizeclass="3" type="collection">
         <element label="Additional Requirements" max_length="4000" name="additional_requirements" type="string"/>
-        <element choice="1" label="Business Continuity" mandatory="true" max_length="40" name="business_continuity" type="choice">
+        <element choice="1" label="Business Continuity" max_length="40" name="business_continuity" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="Connected to Network" mandatory="true" max_length="40" name="connected_to_network" type="choice">
+        <element choice="1" label="Connected to Network" max_length="40" name="connected_to_network" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Contact Person" max_length="40" name="contact_person" type="string"/>
-        <element choice="1" label="Data Sent To Kaiser Servers" mandatory="true" max_length="40" name="data_sent_to_servers" type="choice">
+        <element choice="1" label="Data Sent To Kaiser Servers" max_length="40" name="data_sent_to_servers" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="Delay Problematic" mandatory="true" max_length="40" name="delay_problematic" type="choice">
+        <element choice="1" label="Delay Problematic" max_length="40" name="delay_problematic" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="EIN" max_length="40" name="ein" type="string"/>
-        <element choice="1" label="Emergency Justification" mandatory="true" max_length="40" name="emergency_justification" type="string">
+        <element choice="1" label="Emergency Justification" max_length="40" name="emergency_justification" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
                 <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element label="Equipment Description" mandatory="true" max_length="4000" name="equipment_description" type="string"/>
+        <element label="Equipment Description" max_length="4000" name="equipment_description" type="string"/>
         <element label="Equipment Justification" max_length="4000" name="equipment_justification" type="string"/>
         <element label="Equipment Photo" max_length="40" name="equipment_photo" type="user_image"/>
         <element choice="1" dependent="service_area" dependent_on_field="service_area" label="Facility" max_length="40" name="facility" type="choice" use_dependent_field="true">
@@ -50,46 +50,46 @@
                 <element dependent_value="California" label="San Francisco" sequence="2" value="San Francisco"/>
             </choice>
         </element>
-        <element choice="1" label="Fulfills Regulations" mandatory="true" max_length="40" name="fulfills_regulations" type="choice">
+        <element choice="1" label="Fulfills Regulations" max_length="40" name="fulfills_regulations" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="Includes Vendor PC" mandatory="true" max_length="40" name="includes_vendor_pc" type="choice">
+        <element choice="1" label="Includes Vendor PC" max_length="40" name="includes_vendor_pc" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Model Number" mandatory="true" max_length="40" name="model_number" type="string"/>
-        <element choice="1" label="Needs IT Assistance" mandatory="true" max_length="40" name="need_it_assistance" type="choice">
+        <element choice="1" label="Needs IT Assistance" max_length="40" name="need_it_assistance" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="New Technology" mandatory="true" max_length="40" name="new_technology" type="choice">
+        <element choice="1" label="New Technology" max_length="40" name="new_technology" type="choice">
             <choice>
                 <element label="Yes" sequence="10" value="Yes"/>
                 <element label="No" sequence="20" value="No"/>
             </choice>
         </element>
-        <element choice="1" label="No Loaner Options" mandatory="true" max_length="40" name="no_loaner_options" type="choice">
+        <element choice="1" label="No Loaner Options" max_length="40" name="no_loaner_options" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Price" mandatory="true" max_length="20" name="price" type="price"/>
-        <element choice="1" label="Probe Or Scope" mandatory="true" max_length="40" name="probe_or_scope" type="choice">
+        <element choice="1" label="Probe Or Scope" max_length="40" name="probe_or_scope" type="choice">
             <choice>
                 <element label="Yes" sequence="10" value="Yes"/>
                 <element label="No" sequence="20" value="No"/>
             </choice>
         </element>
         <element label="Related Accessories" max_length="4000" name="related_accessories" type="string"/>
-        <element choice="1" label="Replacing Nonworking Equipment" mandatory="true" max_length="40" name="replacing_nonworking_equipment" type="choice">
+        <element choice="1" label="Replacing Nonworking Equipment" max_length="40" name="replacing_nonworking_equipment" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
@@ -112,21 +112,21 @@
                 <element label="Maryland" sequence="30" value="Maryland"/>
             </choice>
         </element>
-        <element choice="1" label="Static IP Address" mandatory="true" max_length="40" name="static_ip_address" type="choice">
+        <element choice="1" label="Static IP Address" max_length="40" name="static_ip_address" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Submission Date" max_length="40" name="submission_date" type="glide_date_time"/>
-        <element choice="1" label="Takes Images" mandatory="true" max_length="40" name="takes_images" type="choice">
+        <element choice="1" label="Takes Images" max_length="40" name="takes_images" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Title" mandatory="true" max_length="40" name="title" type="string"/>
-        <element choice="1" label="Vendor Installation Document" mandatory="true" max_length="40" name="vendor_installation_document" type="choice">
+        <element choice="1" label="Vendor Installation Document" max_length="40" name="vendor_installation_document" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>

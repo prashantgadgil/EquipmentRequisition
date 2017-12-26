@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments>Clones an equipment request but keeps in Approval Not Requested State</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Clone Request</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var gr = new GlideRecord('x_bp3g_equip_req_equipment_request');
+gr.initialize();
+gr.approval = 'not requested';
+gr.requestor = current.requestor;
+
+gr.service_area = current.service_area;
+gr.facility = current.facility;
+gr.requestor_phone = current.requestor_phone;
+gr.requestor_email = current.requestor_email;
+gr.vendor_name = current.vendor_name;
+gr.model_number = current.model_number;
+gr.price = current.price;
+gr.requestor_dept = current.requestor_dept;
+gr.title = current.title;
+
+
+gr.insert();
+var number = gr.number();
+gs.addInfoMessage('This equipment request has been cloned into a new draft equipment request # {0}',number);
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-26 20:20:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ac6ed9ddb1b8b00e93a9c27db961982</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Clone Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sys_ui_action_6ac6ed9ddb1b8b00e93a9c27db961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-26 20:55:22</sys_updated_on>
+        <table>x_bp3g_equip_req_equipment_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

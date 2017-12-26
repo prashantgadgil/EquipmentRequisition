@@ -85,6 +85,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-12-20 16:07:52</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-26 21:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6503d9ddb5b8b00e93a9c27db961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">ba503d9ddb5b8b00e93a9c27db961943</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-26 21:01:12</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_bp3g_equip_req_equipment_request</name>
             <roles/>
