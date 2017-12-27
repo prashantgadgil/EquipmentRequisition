@@ -2,14 +2,14 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
-        <comments>Submits the request for approval</comments>
+        <comments/>
         <condition/>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
+        <form_link>true</form_link>
         <form_style/>
         <hint/>
         <list_action>false</list_action>
@@ -20,34 +20,34 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Submit Request</name>
+        <name>Set Correct Task View</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.approval = "requested";
-current.update();
-action.setRedirectURL(current);]]></script>
+        <script><![CDATA[var url = '/x_bp3g_equip_req_equipment_request_task.do?sys_id=' + current.sys_id + '&sysparm_view=' + current.view;
+gs.addInfoMessage("URL = " + url);
+gs.setRedirect(url);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-26 20:33:03</sys_created_on>
+        <sys_created_on>2017-12-27 13:57:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>71b96559db5b8b00e93a9c27db961977</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Submit Request</sys_name>
+        <sys_id>26a8596ddb53cb00e93a9c27db96198c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Correct Task View</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>sys_ui_action_71b96559db5b8b00e93a9c27db961977</sys_update_name>
+        <sys_update_name>sys_ui_action_26a8596ddb53cb00e93a9c27db96198c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 14:23:26</sys_updated_on>
-        <table>x_bp3g_equip_req_equipment_request</table>
+        <sys_updated_on>2017-12-27 15:09:47</sys_updated_on>
+        <table>x_bp3g_equip_req_equipment_request_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

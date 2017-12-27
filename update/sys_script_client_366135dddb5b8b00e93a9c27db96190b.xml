@@ -17,6 +17,10 @@
 //	g_form.addDecoration('replacing_nonworking_equipment', 'icon-star', 'Specify Yes if you are trying to replace a nonworking equipment.. Otherwise specify No','color-green');
 
 	g_form.flash("parent", "#FFFACD", 4);
+	var view = g_form.getValue("view");
+	var sysid = g_form.getUniqueValue();
+	//alert('sysid=' + sysid + " and view = " + view );
+	//action.setRedirectURL('x_bp3g_equip_req_equipment_request_task?sys_id=' + sysid + '&sysparm_view=' + view);
 	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -26,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>366135dddb5b8b00e93a9c27db96190b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Request Task Form Decoration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -35,7 +39,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_script_client_366135dddb5b8b00e93a9c27db96190b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-26 21:06:50</sys_updated_on>
+        <sys_updated_on>2017-12-27 14:25:54</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request_task</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

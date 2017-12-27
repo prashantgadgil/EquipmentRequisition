@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Process Home - Container 1">715331eddb93cb00e93a9c27db96195c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-27 15:52:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f95331eddb93cb00e93a9c27db96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sp_row_f95331eddb93cb00e93a9c27db96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-27 15:52:43</sys_updated_on>
+    </sp_row>
+</record_update>
