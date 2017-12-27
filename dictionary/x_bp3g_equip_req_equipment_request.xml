@@ -32,7 +32,6 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
         <element label="Equipment Description" max_length="4000" name="equipment_description" type="string"/>

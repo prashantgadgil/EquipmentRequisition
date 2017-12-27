@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="bb17f829db13cb00e93a9c27db961912" sys_domain="global" table="x_bp3g_equip_req_equipment_request_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb17f829db13cb00e93a9c27db961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">bb17f829db13cb00e93a9c27db961912</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">7b17f829db13cb00e93a9c27db961910</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:29:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7717f829db13cb00e93a9c27db961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">bb17f829db13cb00e93a9c27db961912</sys_ui_form>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">3317f829db13cb00e93a9c27db961911</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:29:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:29:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c27f829db13cb00e93a9c27db96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">bb17f829db13cb00e93a9c27db961912</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">f717f829db13cb00e93a9c27db961911</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:29:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:29:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4027f829db13cb00e93a9c27db96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">bb17f829db13cb00e93a9c27db961912</sys_ui_form>
+            <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="73177829db13cb00e93a9c27db9619a4">bf17f829db13cb00e93a9c27db961911</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:29:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_bp3g_equip_req_equipment_request_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:29:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb17f829db13cb00e93a9c27db961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bp3g_equip_req_equipment_request_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bb17f829db13cb00e93a9c27db961912</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:29:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="IT View" name="IT_View">73177829db13cb00e93a9c27db9619a4</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

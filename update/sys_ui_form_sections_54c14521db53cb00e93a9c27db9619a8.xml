@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="54c14521db53cb00e93a9c27db9619a8" sys_domain="global" table="x_bp3g_equip_req_equipment_request_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 12:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cc14521db53cb00e93a9c27db9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">54c14521db53cb00e93a9c27db9619a8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 12:16:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 12:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18c14521db53cb00e93a9c27db9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">54c14521db53cb00e93a9c27db9619a8</sys_ui_form>
+            <sys_ui_section caption="Clinical Emergency Questions" display_value="Clinical Emergency Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">d8c14521db53cb00e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 12:16:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 12:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10c14521db53cb00e93a9c27db9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">54c14521db53cb00e93a9c27db9619a8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">90c14521db53cb00e93a9c27db9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 12:16:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 12:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cc14521db53cb00e93a9c27db9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request_task" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">54c14521db53cb00e93a9c27db9619a8</sys_ui_form>
+            <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 12:16:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_bp3g_equip_req_equipment_request_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 12:16:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54c14521db53cb00e93a9c27db9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bp3g_equip_req_equipment_request_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+            <sys_update_name>sys_ui_form_sections_54c14521db53cb00e93a9c27db9619a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 12:16:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clinical View" name="Clinical_View">14c149eddb13cb00e93a9c27db961957</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

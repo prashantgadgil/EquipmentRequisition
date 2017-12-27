@@ -2,128 +2,142 @@
 <record_update>
     <sys_ui_section caption="IT Questions" section_id="dfcd918bdb438700e93a9c27db9619f3" sys_domain="global" table="x_bp3g_equip_req_equipment_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>probe_or_scope</element>
+            <element>new_technology</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>da11a54fdb438700e93a9c27db9619f0</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>4156b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>probe_or_scope</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>c156b029db13cb00e93a9c27db9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>connected_to_network</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>5e11a54fdb438700e93a9c27db9619f0</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>4556b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>static_ip_address</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>de11a54fdb438700e93a9c27db9619f0</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>c556b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_sent_to_servers</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>5211a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>4956b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>d211a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>c956b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>takes_images</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>5611a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>4d56b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor_installation_document</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>d611a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>cd56b029db13cb00e93a9c27db9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>need_it_assistance</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>5a11a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>4156b029db13cb00e93a9c27db9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>includes_vendor_pc</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-19 20:08:13</sys_created_on>
-            <sys_id>da11a54fdb438700e93a9c27db9619f1</sys_id>
+            <sys_created_on>2017-12-27 11:26:09</sys_created_on>
+            <sys_id>c156b029db13cb00e93a9c27db9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-19 20:08:13</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

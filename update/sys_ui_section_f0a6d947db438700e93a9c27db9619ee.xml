@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>56a3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7456b029db13cb00e93a9c27db9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>requestor</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>d6a3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>fc56b029db13cb00e93a9c27db9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>requestor_phone</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>5aa3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7056b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,97 +47,111 @@
             <element>requestor_email</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>daa3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>f056b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7456b029db13cb00e93a9c27db9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>5ea3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>f456b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>service_area</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>dea3ff1fdb8f8700e93a9c27db961901</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7856b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>facility</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>52a3ff1fdb8f8700e93a9c27db961902</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>f856b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requestor_dept</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>d2a3ff1fdb8f8700e93a9c27db961902</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7c56b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contact_person</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>56a3ff1fdb8f8700e93a9c27db961902</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>fc56b029db13cb00e93a9c27db9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-21 01:27:02</sys_created_on>
-            <sys_id>d6a3ff1fdb8f8700e93a9c27db961902</sys_id>
+            <sys_created_on>2017-12-27 11:26:08</sys_created_on>
+            <sys_id>7056b029db13cb00e93a9c27db9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">f0a6d947db438700e93a9c27db9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-21 01:27:02</sys_updated_on>
+            <sys_updated_on>2017-12-27 11:26:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
