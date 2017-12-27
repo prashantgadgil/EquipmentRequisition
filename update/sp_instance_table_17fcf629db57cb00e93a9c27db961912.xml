@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,short_description,state,document_id,due_date,comments,approver,group</field_list>
+        <filter table="sysapproval_approver">state=requested^approverDYNAMIC6816f79cc0a8016401c5a33be04be441<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item display_table="sys_user" display_value="System Administrator" endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="6816f79cc0a8016401c5a33be04be441"/>
+        </filter>
+        <glyph>adjust</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dffcf629db57cb00e93a9c27db961903</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-27 21:14:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>17fcf629db57cb00e93a9c27db961912</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sp_instance_table_17fcf629db57cb00e93a9c27db961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-27 21:35:46</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=17fcf629db57cb00e93a9c27db961912"/>
+</record_update>

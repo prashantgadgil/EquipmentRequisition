@@ -3,41 +3,41 @@
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>primary</color>
         <css/>
         <display_field/>
-        <field_list>number,requestor,service_area</field_list>
+        <field_list>number,service_area,facility,vendor_name,price,approval</field_list>
         <filter/>
-        <glyph>bank</glyph>
+        <glyph>bicycle</glyph>
         <id/>
-        <maximum_entries>10</maximum_entries>
+        <maximum_entries>5</maximum_entries>
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">e6a3f5eddb93cb00e93a9c27db9619da</sp_column>
+        <sp_column display_value="2">1c335eeddbd3cb00e93a9c27db96190d</sp_column>
         <sp_page/>
         <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-27 15:56:56</sys_created_on>
+        <sys_created_on>2017-12-27 18:07:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>6f44f9eddb93cb00e93a9c27db9619a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>9242daaddbd3cb00e93a9c27db9619cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Equipment Requests</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>sp_instance_table_6f44f9eddb93cb00e93a9c27db9619a5</sys_update_name>
+        <sys_update_name>sp_instance_table_9242daaddbd3cb00e93a9c27db9619cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 15:58:56</sys_updated_on>
+        <sys_updated_on>2017-12-27 18:12:01</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <title>Equipment Requests</title>
         <url/>
         <widget_parameters/>
     </sp_instance_table>
-    <sys_translated_text action="delete_multiple" query="documentkey=6f44f9eddb93cb00e93a9c27db9619a5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9242daaddbd3cb00e93a9c27db9619cb"/>
 </record_update>

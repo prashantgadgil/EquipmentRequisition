@@ -14,12 +14,12 @@
         <kb_category/>
         <kb_topic/>
         <label>Equipment Requests</label>
-        <order>100</order>
+        <order>500</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page display_value="process_home">70d2fdaddb93cb00e93a9c27db96197d</sp_page>
+        <sp_page display_value="equipment_requests">7ff152eddbd3cb00e93a9c27db9619b5</sp_page>
         <sp_rectangle_menu display_value="Process Menu">1401bd6ddb93cb00e93a9c27db96193d</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_created_on>2017-12-27 16:05:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>75163561dbd3cb00e93a9c27db9619d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Equipment Requests</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_75163561dbd3cb00e93a9c27db9619d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 16:05:19</sys_updated_on>
+        <sys_updated_on>2017-12-27 18:11:08</sys_updated_on>
         <table/>
         <type>page</type>
         <url/>
