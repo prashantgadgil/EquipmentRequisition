@@ -5,15 +5,29 @@
             <element>approval_history</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-20 16:10:45</sys_created_on>
-            <sys_id>f554fdd7db8b8700e93a9c27db9619a5</sys_id>
+            <sys_created_on>2017-12-27 02:26:52</sys_created_on>
+            <sys_id>d5ea3659db1f8b00e93a9c27db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval History" display_value="Approval History" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">fc67e517db4b8700e93a9c27db961921</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-20 16:10:45</sys_updated_on>
+            <sys_updated_on>2017-12-27 02:26:52</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>M2M.x_bp3g_equip_req_equipment_request.sysapproval_approver.sysapproval</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-27 02:26:52</sys_created_on>
+            <sys_id>59ea3659db1f8b00e93a9c27db961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval History" display_value="Approval History" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">fc67e517db4b8700e93a9c27db961921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-27 02:26:52</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Approval History</caption>
