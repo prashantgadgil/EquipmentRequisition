@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>1</order>
+        <question display_value="Requestor Dept">6e6d8afddbdbcb00e93a9c27db96194a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-28 12:25:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e66d8afddbdbcb00e93a9c27db961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hopsital</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>question_choice_e66d8afddbdbcb00e93a9c27db961951</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-28 12:25:07</sys_updated_on>
+        <text>Hopsital</text>
+        <value>Hospital</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e66d8afddbdbcb00e93a9c27db961951"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>e66d8afddbdbcb00e93a9c27db961951</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-28 12:25:08</sys_created_on>
+        <sys_id>6e6d8afddbdbcb00e93a9c27db961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-28 12:25:08</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>e66d8afddbdbcb00e93a9c27db961951</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-28 12:25:08</sys_created_on>
+        <sys_id>266d8afddbdbcb00e93a9c27db961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-28 12:25:08</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

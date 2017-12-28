@@ -3,7 +3,7 @@
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>primary</color>
+        <color>success</color>
         <css/>
         <display_field/>
         <field_list>number,service_area,facility,vendor_name,price,approval</field_list>
@@ -25,7 +25,7 @@
         <sys_created_on>2017-12-27 18:07:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9242daaddbd3cb00e93a9c27db9619cb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Equipment Requests</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_instance_table_9242daaddbd3cb00e93a9c27db9619cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 18:12:01</sys_updated_on>
+        <sys_updated_on>2017-12-28 12:40:59</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <title>Equipment Requests</title>
         <url/>
