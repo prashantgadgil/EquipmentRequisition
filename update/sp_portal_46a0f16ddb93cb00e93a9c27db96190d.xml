@@ -32,7 +32,7 @@ $text-muted: #979797;
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
         <sc_catalog display_value="Process Catalog">eab9f4a9db13cb00e93a9c27db9619c0</sc_catalog>
-        <sc_catalog_page/>
+        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
         <sc_category_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="Process Menu">1401bd6ddb93cb00e93a9c27db96193d</sp_rectangle_menu>
@@ -42,7 +42,7 @@ $text-muted: #979797;
         <sys_created_on>2017-12-27 15:42:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>46a0f16ddb93cb00e93a9c27db96190d</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Process Portal</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -50,12 +50,11 @@ $text-muted: #979797;
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_portal_46a0f16ddb93cb00e93a9c27db96190d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 21:46:47</sys_updated_on>
-        <theme display_value="CAB Workbench - Default">49d3c5809f231200b18a7feea57fcf9b</theme>
+        <sys_updated_on>2018-01-02 16:47:01</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>Process Portal</title>
         <url_suffix>process</url_suffix>
     </sp_portal>
-    <sys_translated_text action="delete_multiple" query="documentkey=46a0f16ddb93cb00e93a9c27db96190d"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#291e2c</average_image_color>
         <compressed>true</compressed>
@@ -67,8 +66,6 @@ $text-muted: #979797;
         <size_compressed>13228</size_compressed>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-27 16:18:54</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>a959b1e1dbd3cb00e93a9c27db9619e6</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
