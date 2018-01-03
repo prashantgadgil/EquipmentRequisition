@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <additional_groupby/>
+        <additional_groupby>approval</additional_groupby>
         <aggregate>COUNT</aggregate>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
@@ -11,15 +11,15 @@
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
         <chart_height>450</chart_height>
-        <chart_size>medium</chart_size>
-        <chart_title/>
+        <chart_size>small</chart_size>
+        <chart_title>Equipment Requests</chart_title>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="Greens dark to light (9)">29d113e9d7100200b96d45a3ce6103cd</color_palette>
+        <color_palette display_value="Purples light to dark (6)">5b671d51d7100200b96d45a3ce61038c</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>
@@ -55,7 +55,7 @@
         <legend_horizontal_alignment>center</legend_horizontal_alignment>
         <legend_items_left_align>false</legend_items_left_align>
         <legend_vertical_alignment>bottom</legend_vertical_alignment>
-        <list_ui_view/>
+        <list_ui_view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</list_ui_view>
         <location_field/>
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
@@ -74,7 +74,7 @@
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
-        <set_color>several_colors</set_color>
+        <set_color>chart_colors</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -91,7 +91,7 @@
         <sys_created_on>2017-12-27 02:35:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6cccbe59db1f8b00e93a9c27db96190a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Equipment Requests Report</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -99,14 +99,14 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_report_6cccbe59db1f8b00e93a9c27db96190a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 02:35:00</sys_updated_on>
+        <sys_updated_on>2018-01-03 15:06:14</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <title>Equipment Requests Report</title>
-        <title_horizontal_alignment>center</title_horizontal_alignment>
+        <title_horizontal_alignment>left</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>pie</type>
+        <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
