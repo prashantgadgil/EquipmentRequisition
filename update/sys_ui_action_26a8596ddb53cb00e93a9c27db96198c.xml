@@ -20,10 +20,13 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Set Correct Task View</name>
+        <name>Set Correct Task View (Not used)</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var url = '/x_bp3g_equip_req_equipment_request_task.do?sys_id=' + current.sys_id + '&sysparm_view=' + current.view;
+        <script><![CDATA[var url = '/nav_to.do?uri=x_bp3g_equip_req_equipment_request_task.do?sys_id=' + current.sys_id + '&sysparm_view=' + current.view + "&sysparm_view_forced=true";
+//%2F
+//var url = 'nav_to.do?uri=x_bp3g_equip_req_equipment_request_task.do?sys_id=' + current.sys_id + '&sysparm_view=' + current.view + "&sysparm_view_forced=true";
+
 gs.addInfoMessage("URL = " + url);
 gs.setRedirect(url);]]></script>
         <show_insert>false</show_insert>
@@ -37,8 +40,8 @@ gs.setRedirect(url);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26a8596ddb53cb00e93a9c27db96198c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Set Correct Task View</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Set Correct Task View (Not used)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -46,7 +49,7 @@ gs.setRedirect(url);]]></script>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_action_26a8596ddb53cb00e93a9c27db96198c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 15:09:47</sys_updated_on>
+        <sys_updated_on>2018-01-04 12:30:12</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
