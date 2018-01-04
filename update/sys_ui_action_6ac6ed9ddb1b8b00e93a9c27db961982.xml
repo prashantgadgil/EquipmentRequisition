@@ -37,6 +37,7 @@ gr.model_number = current.model_number;
 gr.price = current.price;
 gr.requestor_dept = current.requestor_dept;
 gr.title = current.title;
+gr.location = current.location;
 
 
 gr.insert();
@@ -54,7 +55,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ac6ed9ddb1b8b00e93a9c27db961982</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Clone Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -63,7 +64,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_action_6ac6ed9ddb1b8b00e93a9c27db961982</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 01:18:47</sys_updated_on>
+        <sys_updated_on>2018-01-04 18:38:52</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
