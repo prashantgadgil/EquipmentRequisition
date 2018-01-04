@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Texas</center_address>
+        <center_latitude>31.9685988</center_latitude>
+        <center_longitude>-99.9018131</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>5</initial_zoom>
+        <name>x_bp3g_equip_req_Requests_Map_Page</name>
+        <overview>true</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script><![CDATA[var gr = new GlideRecord("x_bp3g_equip_req_equipment_request");
+gr.query();
+while (gr.next()) {
+   var item = map.addItem(gr);
+   //item.latitude =  gr.getValue('latitude');
+   //item.longitude = gr.getValue('longitude');
+   item.latutude = String(gr.location.getValue('latitude'));
+   item.longitude = String(gr.location.getValue('longitude'));
+   item.dialog_title = gr.location.getDisplayValue();
+   item.icon = "images/red_marker.png";
+   item.icon_width = "16";
+   item.icon_height = "16";
+}
+]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Requests_Map_Page</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-04 16:10:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7c30748dbef4b40a7d0d5f0cf961953</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>x_bp3g_equip_req_Requests_Map_Page</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>cmn_map_page_b7c30748dbef4b40a7d0d5f0cf961953</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-04 16:43:25</sys_updated_on>
+        <type>terrain</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>
