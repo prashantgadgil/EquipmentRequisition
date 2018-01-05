@@ -2,30 +2,30 @@
 <record_update>
     <sys_ui_section caption="Task Dates" section_id="58c14521db53cb00e93a9c27db9619a7" sys_domain="global" table="x_bp3g_equip_req_equipment_request_task" version="3" view="Clinical_View">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity_due</element>
+            <element>sys_created_on</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 12:16:06</sys_created_on>
-            <sys_id>acc14521db53cb00e93a9c27db9619d5</sys_id>
+            <sys_created_on>2018-01-05 17:32:50</sys_created_on>
+            <sys_id>80906c28db6b8b40a7d0d5f0cf9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 12:16:06</sys_updated_on>
+            <sys_updated_on>2018-01-05 17:32:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_on</element>
+            <element>opened_at</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 12:16:06</sys_created_on>
-            <sys_id>20c14521db53cb00e93a9c27db9619d6</sys_id>
+            <sys_created_on>2018-01-05 17:32:50</sys_created_on>
+            <sys_id>04906c28db6b8b40a7d0d5f0cf9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 12:16:06</sys_updated_on>
+            <sys_updated_on>2018-01-05 17:32:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,27 +33,27 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 12:16:06</sys_created_on>
-            <sys_id>a0c14521db53cb00e93a9c27db9619d6</sys_id>
+            <sys_created_on>2018-01-05 17:32:50</sys_created_on>
+            <sys_id>84906c28db6b8b40a7d0d5f0cf9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 12:16:06</sys_updated_on>
+            <sys_updated_on>2018-01-05 17:32:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_at</element>
+            <element>due_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 12:16:06</sys_created_on>
-            <sys_id>24c14521db53cb00e93a9c27db9619d6</sys_id>
+            <sys_created_on>2018-01-05 17:32:50</sys_created_on>
+            <sys_id>08906c28db6b8b40a7d0d5f0cf9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 12:16:06</sys_updated_on>
+            <sys_updated_on>2018-01-05 17:32:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>closed_at</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 12:16:06</sys_created_on>
-            <sys_id>a4c14521db53cb00e93a9c27db9619d6</sys_id>
+            <sys_created_on>2018-01-05 17:32:50</sys_created_on>
+            <sys_id>88906c28db6b8b40a7d0d5f0cf9619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Dates" display_value="Task Dates" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="14c149eddb13cb00e93a9c27db961957">58c14521db53cb00e93a9c27db9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 12:16:06</sys_updated_on>
+            <sys_updated_on>2018-01-05 17:32:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
