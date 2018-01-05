@@ -34,12 +34,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-01-05 17:54:06</sys_created_on>
         <sys_id>7f65206cdb6b8b40a7d0d5f0cf96199e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-05 18:00:41</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>jdoe</sys_updated_by>
+        <sys_updated_on>2018-01-05 18:58:19</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <timezone>US/Central</timezone>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Equipment Request Process">2de09ad7dbcb8700e93a9c27db961909</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
