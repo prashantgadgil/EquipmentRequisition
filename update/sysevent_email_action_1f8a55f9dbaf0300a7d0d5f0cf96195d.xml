@@ -11,7 +11,7 @@
         <condition/>
         <content_type>text/html</content_type>
         <description/>
-        <event_name/>
+        <event_name>approval.cancelled</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -27,7 +27,7 @@
         <message_html/>
         <message_list/>
         <message_text/>
-        <name/>
+        <name>Test Notification</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -47,8 +47,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f8a55f9dbaf0300a7d0d5f0cf96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sysevent_email_action_1f8a55f9dbaf0300a7d0d5f0cf96195d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-09 18:59:02</sys_updated_on>
+        <sys_updated_on>2018-01-09 19:02:14</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
