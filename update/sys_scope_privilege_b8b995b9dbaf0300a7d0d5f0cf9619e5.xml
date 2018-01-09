@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 18:54:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b8b995b9dbaf0300a7d0d5f0cf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_app</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sys_scope_privilege_b8b995b9dbaf0300a7d0d5f0cf9619e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 18:54:52</sys_updated_on>
+        <target_name>sys_app</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

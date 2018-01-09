@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" sizeclass="11" type="collection">
+    <element extends="task" label="Equipment Request" max_length="40" name="x_bp3g_equip_req_equipment_request" sizeclass="12" type="collection">
         <element label="Additional Requirements" max_length="4000" name="additional_requirements" type="string"/>
         <element choice="1" label="Business Continuity" max_length="40" name="business_continuity" type="choice">
             <choice>
