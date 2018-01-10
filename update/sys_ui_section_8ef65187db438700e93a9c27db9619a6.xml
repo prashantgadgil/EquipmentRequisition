@@ -1,171 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="Requestor" section_id="8ef65187db438700e93a9c27db9619a6" sys_domain="global" table="x_bp3g_equip_req_equipment_request" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>6dad79cedba74300a7d0d5f0cf961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <text>Use this form to submit a new equipment requisition</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>61ad79cedba74300a7d0d5f0cf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <text>Some of the fields are required fields.</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>65ad79cedba74300a7d0d5f0cf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>69ad79cedba74300a7d0d5f0cf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <text/>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>6dad79cedba74300a7d0d5f0cf961984</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>09554788dbef4b40a7d0d5f0cf9619f2</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>2dad79cedba74300a7d0d5f0cf961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>adad79cedba74300a7d0d5f0cf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requestor</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>8d554788dbef4b40a7d0d5f0cf9619f2</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>21ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requestor_phone</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>01554788dbef4b40a7d0d5f0cf9619f3</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>a1ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requestor_email</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>81554788dbef4b40a7d0d5f0cf9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>title</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>05554788dbef4b40a7d0d5f0cf9619f3</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>25ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>85554788dbef4b40a7d0d5f0cf9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>service_area</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>09554788dbef4b40a7d0d5f0cf9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>facility</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>89554788dbef4b40a7d0d5f0cf9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>0d554788dbef4b40a7d0d5f0cf9619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requestor_dept</element>
-            <position>9</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>8d554788dbef4b40a7d0d5f0cf9619f3</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>a5ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contact_person</element>
-            <position>10</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>01554788dbef4b40a7d0d5f0cf9619f4</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>29ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approval</element>
-            <position>11</position>
+            <element>title</element>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-04 16:15:44</sys_created_on>
-            <sys_id>81554788dbef4b40a7d0d5f0cf9619f4</sys_id>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>a9ad79cedba74300a7d0d5f0cf961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-04 16:15:44</sys_updated_on>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>3dad79cedba74300a7d0d5f0cf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>61ad79cedba74300a7d0d5f0cf961985</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>bdad79cedba74300a7d0d5f0cf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_area</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>31ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facility</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>b1ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>35ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>65ad79cedba74300a7d0d5f0cf961985</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>b5ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>69ad79cedba74300a7d0d5f0cf961985</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>39ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-10 16:10:25</sys_created_on>
+            <sys_id>b9ad79cedba74300a7d0d5f0cf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requestor" display_value="Requestor" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">8ef65187db438700e93a9c27db9619a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:10:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
