@@ -2,9 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_bp3g_equip_req_equipment_request_task">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </conditions>
+        <conditions/>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -18,47 +16,73 @@
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-   g_form.addInfoMessage("Closed Complete UI Policy being applied...");
-   g_form.setDisabled('number',true);
-   //g_form.setDisabled('view',true);
-   g_form.setDisabled('parent',true);
-   g_form.setDisabled('equipment_request',true);
-   g_form.setDisabled('priority',true);
-   g_form.setDisabled('description',true);
-   g_form.setDisabled('short_description',true);
-   g_form.setDisabled('assignment_group',true);
-   g_form.setDisabled('time_worked',true);
-  
+    g_form.addInfoMessage("Generic UI Policy being applied...");
+	var state = g_form.getValue('state');
+	var view = g_form.getValue('view');
 	
-	//IT fields
-
-	var equipment_request = g_form.getReference('parent', setParentFieldsVisibility);
-	function setParentFieldsVisibility(equipment_request) {    
-	   if (equipment_request) {    
-		   g_form.setDisabled("equipment_request.new_technology", true);              
-		   g_form.setDisabled('equipment_request.probe_or_scope',true);
-
-		   g_form.setDisabled('equipment_request.probe_or_scope',true);
-		   g_form.setDisabled('equipment_request.static_ip_address',true);
-		   g_form.setDisabled('equipment_request.need_it_assistance',true);
-		   g_form.setDisabled('equipment_request.includes_vendor_pc',true);
-		   g_form.setDisabled('equipment_request.vendor_installation_document',true);
-		   g_form.setDisabled('equipment_request.data_sent_to_servers',true);
-		   g_form.setDisabled('equipment_request.connected_to_network',true);
-		   g_form.setDisabled('equipment_request.takes_images',true);
-
-		   //Clinical fields
-		   g_form.setDisabled('equipment_request.replacing_nonworking_equipment',true);
-		   g_form.setDisabled('equipment_request.no_loaner_options',true);
-		   g_form.setDisabled('equipment_request.delay_problematic',true);
-		   g_form.setDisabled('equipment_request.fulfills_regulations',true);
-		   g_form.setDisabled('equipment_request.business_continuity',true);
-		   g_form.setDisabled('equipment_request.emergency_justification',true);
+    //g_form.addInfoMessage("State=" + g_form.getValue('state'));
+    //g_form.addInfoMessage("View=" + g_form.getValue('view'));
+	
+    g_form.setDisabled('number',true);
+    //g_form.setDisabled('view',true);
+    g_form.setDisabled('parent',true);
+    g_form.setDisabled('equipment_request',true);
+    g_form.setDisabled('priority',true);
+    g_form.setDisabled('description',true);
+    g_form.setDisabled('short_description',true);
+    g_form.setDisabled('assignment_group',true);
+    g_form.setDisabled('time_worked',true);
+  
+	//IT Fields
+	if ((state == 3) || (state == 1 && view != "IT_View")) {
+		g_form.addInfoMessage("Disabling IT Fields");
+		g_form.setDisabled("equipment_request.new_technology", true);              
+		g_form.setDisabled('equipment_request.probe_or_scope',true);
+		g_form.setDisabled('equipment_request.static_ip_address',true);
+		g_form.setDisabled('equipment_request.need_it_assistance',true);
+		g_form.setDisabled('equipment_request.includes_vendor_pc',true);
+		g_form.setDisabled('equipment_request.vendor_installation_document',true);
+		g_form.setDisabled('equipment_request.data_sent_to_servers',true);
+		g_form.setDisabled('equipment_request.connected_to_network',true);
+		g_form.setDisabled('equipment_request.takes_images',true);
+	}
+	//Clinical fields
+	if ((state == 3) || (state == 1 && view != "Clinical_View")) {
+		g_form.addInfoMessage("Disabling Clinical Fields");
+		g_form.setDisabled('equipment_request.replacing_nonworking_equipment',true);
+		g_form.setDisabled('equipment_request.no_loaner_options',true);
+		g_form.setDisabled('equipment_request.delay_problematic',true);
+		g_form.setDisabled('equipment_request.fulfills_regulations',true);
+		g_form.setDisabled('equipment_request.business_continuity',true);
+		g_form.setDisabled('equipment_request.emergency_justification',true);
+	}	
+	//Equipment Info fields
+	if ((state == 3) || (state == 1 && view != "Submitter_View")) {
+		g_form.addInfoMessage("Disabling Equipment Fields");
+		g_form.setDisabled('equipment_request.vendor_name',true);
+		g_form.setDisabled('equipment_request.vendor_website',true);
+		g_form.setDisabled('equipment_request.model_number',true);
+		g_form.setDisabled('equipment_request.price',true);
+		g_form.setDisabled('equipment_request.equipment_photo',true);
+		g_form.setDisabled('equipment_request.equipment_description',true);
+		g_form.setDisabled('equipment_request.ein',true);
+		g_form.setDisabled('equipment_request.related_accessories',true);
+		g_form.setDisabled('equipment_request.additional_requirements',true);
+		g_form.setDisabled('equipment_request.equipment_justification',true);
+	}
+	/*
+	Function to get any parent reference record
+	var equipment_requestx = g_form.getReference('parent', setParentFieldsVisibility);
+	function setParentFieldsVisibility(equipment_requestx) {    
+	   if (equipment_requestx) {    
+	
 	   }
 	}
+	*/
+	
 }]]></script_true>
         <set_values/>
-        <short_description>Equipment Request Task - Closed Complete UI Policy</short_description>
+        <short_description>Equipment Request Task - Generic UI Policy</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-01-12 10:15:07</sys_created_on>
@@ -66,8 +90,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>688f3aeedbaf0300a7d0d5f0cf9619b7</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Equipment Request Task - Closed Complete UI Policy</sys_name>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Equipment Request Task - Generic UI Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -75,7 +99,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_policy_688f3aeedbaf0300a7d0d5f0cf9619b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-12 10:56:44</sys_updated_on>
+        <sys_updated_on>2018-01-12 11:55:20</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request_task</table>
         <ui_type>10</ui_type>
         <view/>

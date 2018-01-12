@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Clinical Questions" section_id="290dcbe6dbef0300a7d0d5f0cf96192e" sys_domain="global" table="x_bp3g_equip_req_equipment_request_task" version="3" view="TaskView">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.replacing_nonworking_equipment</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>a0ce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.no_loaner_options</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>24ce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.delay_problematic</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>a4ce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>28ce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.fulfills_regulations</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>a8ce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.business_continuity</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>2cce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.emergency_justification</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:21:45</sys_created_on>
+            <sys_id>acce0f2adbef0300a7d0d5f0cf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">290dcbe6dbef0300a7d0d5f0cf96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Clinical Questions</caption>
+            <header>false</header>
+            <name>x_bp3g_equip_req_equipment_request_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:14:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>290dcbe6dbef0300a7d0d5f0cf96192e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Clinical Questions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+            <sys_update_name>sys_ui_section_290dcbe6dbef0300a7d0d5f0cf96192e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:21:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="TaskView" name="TaskView">55ac8be6dbef0300a7d0d5f0cf961906</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

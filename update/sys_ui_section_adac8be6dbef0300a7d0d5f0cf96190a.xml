@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="IT Questions" section_id="adac8be6dbef0300a7d0d5f0cf96190a" sys_domain="global" table="x_bp3g_equip_req_equipment_request_task" version="3" view="TaskView">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.new_technology</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>29ac8be6dbef0300a7d0d5f0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.probe_or_scope</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>a9ac8be6dbef0300a7d0d5f0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.static_ip_address</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>2dac8be6dbef0300a7d0d5f0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.need_it_assistance</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>adac8be6dbef0300a7d0d5f0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>21ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.includes_vendor_pc</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>a1ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.vendor_installation_document</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>25ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.data_sent_to_servers</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>a5ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.connected_to_network</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>29ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_request.takes_images</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_id>a9ac8be6dbef0300a7d0d5f0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request_task" sys_domain="global" view="55ac8be6dbef0300a7d0d5f0cf961906">adac8be6dbef0300a7d0d5f0cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>IT Questions</caption>
+            <header>false</header>
+            <name>x_bp3g_equip_req_equipment_request_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-12 11:12:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adac8be6dbef0300a7d0d5f0cf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IT Questions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+            <sys_update_name>sys_ui_section_adac8be6dbef0300a7d0d5f0cf96190a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-12 11:12:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="TaskView" name="TaskView">55ac8be6dbef0300a7d0d5f0cf961906</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
