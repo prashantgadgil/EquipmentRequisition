@@ -35,7 +35,7 @@
   
 	//IT Fields
 	if ((state == 3) || (state == 1 && view != "IT_View")) {
-		g_form.addInfoMessage("Disabling IT Fields");
+// 		g_form.addInfoMessage("Disabling IT Fields");
 		g_form.setDisabled("equipment_request.new_technology", true);              
 		g_form.setDisabled('equipment_request.probe_or_scope',true);
 		g_form.setDisabled('equipment_request.static_ip_address',true);
@@ -48,7 +48,7 @@
 	}
 	//Clinical fields
 	if ((state == 3) || (state == 1 && view != "Clinical_View")) {
-		g_form.addInfoMessage("Disabling Clinical Fields");
+// 		g_form.addInfoMessage("Disabling Clinical Fields");
 		g_form.setDisabled('equipment_request.replacing_nonworking_equipment',true);
 		g_form.setDisabled('equipment_request.no_loaner_options',true);
 		g_form.setDisabled('equipment_request.delay_problematic',true);
@@ -58,7 +58,7 @@
 	}	
 	//Equipment Info fields
 	if ((state == 3) || (state == 1 && view != "Submitter_View")) {
-		g_form.addInfoMessage("Disabling Equipment Fields");
+// 		g_form.addInfoMessage("Disabling Equipment Fields");
 		g_form.setDisabled('equipment_request.vendor_name',true);
 		g_form.setDisabled('equipment_request.vendor_website',true);
 		g_form.setDisabled('equipment_request.model_number',true);
@@ -90,7 +90,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>688f3aeedbaf0300a7d0d5f0cf9619b7</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Equipment Request Task - Generic UI Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -99,7 +99,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_policy_688f3aeedbaf0300a7d0d5f0cf9619b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-12 11:55:20</sys_updated_on>
+        <sys_updated_on>2018-01-12 15:17:17</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request_task</table>
         <ui_type>10</ui_type>
         <view/>

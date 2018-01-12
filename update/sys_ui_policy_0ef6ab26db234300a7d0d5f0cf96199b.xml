@@ -25,7 +25,7 @@
 
 	//Requestor Fields
 	if ((approval!= "not requested")) {
-		g_form.addInfoMessage("Disabling Requestor Fields");
+		//g_form.addInfoMessage("Disabling Requestor Fields");
 		g_form.setDisabled("requestor_email", true);              
 		g_form.setDisabled('requestor_dept',true);
 		g_form.setDisabled('contact_person',true);
@@ -39,7 +39,7 @@
   
 	//IT Fields
 	if ((approval!= "not requested")) {
-		g_form.addInfoMessage("Disabling IT Fields");
+		//g_form.addInfoMessage("Disabling IT Fields");
 		g_form.setDisabled("new_technology", true);              
 		g_form.setDisabled('probe_or_scope',true);
 		g_form.setDisabled('static_ip_address',true);
@@ -52,7 +52,7 @@
 	}
 	//Clinical fields
 	if ((approval!= "not requested")) {
-		g_form.addInfoMessage("Disabling Clinical Fields");
+		//g_form.addInfoMessage("Disabling Clinical Fields");
 		g_form.setDisabled('replacing_nonworking_equipment',true);
 		g_form.setDisabled('no_loaner_options',true);
 		g_form.setDisabled('delay_problematic',true);
@@ -62,7 +62,7 @@
 	}	
 	//Equipment Info fields
 	if ((approval!= "not requested")) {
-		g_form.addInfoMessage("Disabling Equipment Fields");
+		//g_form.addInfoMessage("Disabling Equipment Fields");
 		g_form.setDisabled('vendor_name',true);
 		g_form.setDisabled('vendor_website',true);
 		g_form.setDisabled('model_number',true);
@@ -94,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ef6ab26db234300a7d0d5f0cf96199b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Equipment Request - Generic UI Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -103,7 +103,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_policy_0ef6ab26db234300a7d0d5f0cf96199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-12 13:19:58</sys_updated_on>
+        <sys_updated_on>2018-01-12 15:09:36</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <ui_type>10</ui_type>
         <view/>

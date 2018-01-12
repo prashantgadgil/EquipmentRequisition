@@ -39,7 +39,7 @@
             <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
-            <sys_ui_section caption="Emergency Questions" display_value="Emergency Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">578e59cbdb438700e93a9c27db961988</sys_ui_section>
+            <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">578e59cbdb438700e93a9c27db961988</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-12-27 11:54:42</sys_updated_on>
         </sys_ui_form_section>
