@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>title</col_name_string>
+        <index_col_name element="title" name="x_bp3g_equip_req_equipment_request">11e5b46fdbdb0b40a7d0d5f0cf96199e</index_col_name>
+        <logical_table_name>x_bp3g_equip_req_equipment_request</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-15 22:07:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>216ff03bdb23c300a7d0d5f0cf9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bp3g_equip_req_equipment_request</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sys_index_x_bp3g_equip_req_equipment_request_title</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-15 22:07:49</sys_updated_on>
+        <table display_value="Equipment Request" name="x_bp3g_equip_req_equipment_request">3605d907db438700e93a9c27db9619d5</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

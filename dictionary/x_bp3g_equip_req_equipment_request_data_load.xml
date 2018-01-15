@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Equipment Request Data Load" max_length="40" name="x_bp3g_equip_req_equipment_request_data_load" type="collection">
+        <element attributes="import_attribute_name=Contact Name,edge_encryption_enabled=true" label="Contact Name" max_length="40" name="u_contact_name" type="string"/>
+        <element attributes="import_attribute_name=Facility,edge_encryption_enabled=true" label="Facility" max_length="40" name="u_facility" type="string"/>
+        <element attributes="import_attribute_name=Price" label="Price" max_length="40" name="u_price" type="integer"/>
+        <element attributes="import_attribute_name=Requestor,edge_encryption_enabled=true" label="Requestor" max_length="40" name="u_requestor" type="string"/>
+        <element attributes="import_attribute_name=Requestor Email,edge_encryption_enabled=true" label="Requestor Email" max_length="40" name="u_requestor_email" type="string"/>
+        <element attributes="import_attribute_name=Service Area,edge_encryption_enabled=true" label="Service Area" max_length="40" name="u_service_area" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="40" name="u_title" type="string"/>
+        <element attributes="import_attribute_name=Vendor Name,edge_encryption_enabled=true" label="Vendor Name" max_length="40" name="u_vendor_name" type="string"/>
+    </element>
+</database>
