@@ -29,7 +29,7 @@
 	g_form.clearMessages();
 	
     if (g_form.getValue("view") == "IT_View") {
-		var delay_problematic =  g_form.getValue('equipment_request.delay_problematic');
+		var new_technology =  g_form.getValue('equipment_request.new_technology');
 		var probe_or_scope =  g_form.getValue('equipment_request.probe_or_scope');
 		var static_ip_address =  g_form.getValue('equipment_request.static_ip_address');
 		var need_it_assistance =  g_form.getValue('equipment_request.need_it_assistance');
@@ -39,8 +39,8 @@
 		var connected_to_network =  g_form.getValue('equipment_request.connected_to_network');
 		var takes_images =  g_form.getValue('equipment_request.takes_images');
 		//	g_form.addInfoMessage("Delay Problematic = " + delay_problematic);
-		if(delay_problematic != "Yes" && delay_problematic != "No") {   
-			 g_form.showFieldMsg('equipment_request.delay_problematic','Specify Delay Problematic','error');
+		if(new_technology != "Yes" && new_technology != "No") {   
+			 g_form.showFieldMsg('equipment_request.new_technology','Specify New Technology','error');
 			 readyToSubmit = false;
 		}
 		if(probe_or_scope != "Yes" && probe_or_scope != "No") {   
@@ -76,7 +76,41 @@
 			 readyToSubmit = false;
 		}
 	}
+    if (g_form.getValue("view") == "Clinical_View") {
+		var replacing_nonworking_equipment =  g_form.getValue('equipment_request.replacing_nonworking_equipment');
+		var no_loaner_options =  g_form.getValue('equipment_request.no_loaner_options');
+		var delay_problematic =  g_form.getValue('equipment_request.delay_problematic');
+		var fulfills_regulations =  g_form.getValue('equipment_request.fulfills_regulations');
+		var business_continuity =  g_form.getValue('equipment_request.business_continuity');
+		var emergency_justification =  g_form.getValue('equipment_request.emergency_justification');
+		//	g_form.addInfoMessage("Delay Problematic = " + delay_problematic);
+		if(replacing_nonworking_equipment != "Yes" && replacing_nonworking_equipment != "No") {   
+			 g_form.showFieldMsg('equipment_request.replacing_nonworking_equipment','Specify Replacing Nonworking Equipment','error');
+			 readyToSubmit = false;
+		}
+		if(no_loaner_options != "Yes" && no_loaner_options != "No") {   
+			 g_form.showFieldMsg('equipment_request.no_loaner_options','Specify No Loaner Options','error');
+			 readyToSubmit = false;
+		}
+		if(delay_problematic != "Yes" && delay_problematic != "No") {   
+			 g_form.showFieldMsg('equipment_request.delay_problematic','Specify Delay Problematic','error');
+			 readyToSubmit = false;
+		}
+		if(fulfills_regulations != "Yes" && fulfills_regulations != "No") {   
+			 g_form.showFieldMsg('equipment_request.fulfills_regulations','Specify Fulfills Regulations','error');
+			 readyToSubmit = false;
+		}
+		if(business_continuity != "Yes" && business_continuity != "No") {   
+			 g_form.showFieldMsg('equipment_request.business_continuity','Specify Business Continuity','error');
+			 readyToSubmit = false;
+		}
+		if(emergency_justification != "Yes" && emergency_justification != "No") {   
+			 g_form.showFieldMsg('equipment_request.emergency_justification','Specify Emergency Justification','error');
+			 readyToSubmit = false;
+		}
+	}
 	if (readyToSubmit == false) {
+			g_form.addErrorMessage("Please fill in the required fields and try again");
  			 return false;  //Abort submission
 	}
 	else {
@@ -108,7 +142,7 @@ function completeTaskOnServer() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfad9367db6f8300a7d0d5f0cf961997</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Complete Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -117,7 +151,7 @@ function completeTaskOnServer() {
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_action_bfad9367db6f8300a7d0d5f0cf961997</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-15 16:14:47</sys_updated_on>
+        <sys_updated_on>2018-01-15 16:24:08</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
