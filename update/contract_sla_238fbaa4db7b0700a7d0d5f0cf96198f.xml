@@ -5,7 +5,7 @@
         <cancel_condition/>
         <collection>x_bp3g_equip_req_equipment_request_task</collection>
         <condition_class/>
-        <duration>1970-01-01 00:10:00</duration>
+        <duration>1970-01-01 00:05:00</duration>
         <duration_type/>
         <enable_logging>false</enable_logging>
         <name>Equipment Request Task SLA</name>
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>238fbaa4db7b0700a7d0d5f0cf96198f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Equipment Request Task SLA</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -41,13 +41,13 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>contract_sla_238fbaa4db7b0700a7d0d5f0cf96198f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-18 15:51:33</sys_updated_on>
+        <sys_updated_on>2018-01-19 16:08:02</sys_updated_on>
         <target/>
         <timezone/>
         <timezone_source>sla.timezone</timezone_source>
         <type>SLA</type>
         <when_to_cancel>no_match</when_to_cancel>
         <when_to_resume>no_match</when_to_resume>
-        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+        <workflow display_value="BP3 SLA Workflow">ff88448ddbb34700a7d0d5f0cf961980</workflow>
     </contract_sla>
 </record_update>
