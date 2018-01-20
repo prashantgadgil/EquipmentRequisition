@@ -15,7 +15,7 @@
         <mobile_title>Qualified Ideas</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_bp3g_equip_req_qualified_idea</name>
-        <order/>
+        <order>700</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d261d195db3f4700a7d0d5f0cf96190d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Qualified Ideas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_app_module_d261d195db3f4700a7d0d5f0cf96190d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-20 15:18:07</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:52:17</sys_updated_on>
         <timeline_page/>
         <title>Qualified Ideas</title>
         <uncancelable>false</uncancelable>

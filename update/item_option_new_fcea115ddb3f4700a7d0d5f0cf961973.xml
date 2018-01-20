@@ -6,8 +6,8 @@
         <cat_item display_value="Equipment Requisition">266d02fddbdbcb00e93a9c27db9619e7</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>priority</choice_field>
+        <choice_table>task</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -19,7 +19,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field>requestor_phone</field>
+        <field>priority</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -37,11 +37,11 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>requestor_phone</name>
-        <order>400</order>
+        <name>priority</name>
+        <order>160</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Requestor Phone</question_text>
+        <question_text>Priority</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -58,21 +58,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:08</sys_created_on>
+        <sys_created_on>2018-01-20 15:58:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>be6d8afddbdbcb00e93a9c27db96195b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Requestor Phone</sys_name>
+        <sys_id>fcea115ddb3f4700a7d0d5f0cf961973</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Priority</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>item_option_new_be6d8afddbdbcb00e93a9c27db96195b</sys_update_name>
+        <sys_update_name>item_option_new_fcea115ddb3f4700a7d0d5f0cf961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-20 16:02:34</sys_updated_on>
+        <sys_updated_on>2018-01-20 16:00:47</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -86,22 +86,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=be6d8afddbdbcb00e93a9c27db96195b"/>
-    <fx_price action="delete_multiple" query="id=be6d8afddbdbcb00e93a9c27db96195b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fcea115ddb3f4700a7d0d5f0cf961973"/>
+    <fx_price action="delete_multiple" query="id=fcea115ddb3f4700a7d0d5f0cf961973"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>be6d8afddbdbcb00e93a9c27db96195b</id>
+        <id>fcea115ddb3f4700a7d0d5f0cf961973</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:08</sys_created_on>
-        <sys_id>7a6d8afddbdbcb00e93a9c27db96195d</sys_id>
+        <sys_created_on>2018-01-20 15:58:47</sys_created_on>
+        <sys_id>b0ea115ddb3f4700a7d0d5f0cf961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-28 12:25:08</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:58:47</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>be6d8afddbdbcb00e93a9c27db96195b</id>
+        <id>fcea115ddb3f4700a7d0d5f0cf961973</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:08</sys_created_on>
-        <sys_id>326d8afddbdbcb00e93a9c27db96195d</sys_id>
+        <sys_created_on>2018-01-20 15:58:47</sys_created_on>
+        <sys_id>78ea115ddb3f4700a7d0d5f0cf961975</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-28 12:25:08</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:58:47</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

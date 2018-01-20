@@ -15,7 +15,7 @@
         <mobile_title>Reports</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_bp3g_equip_req_equipment_request</name>
-        <order>10</order>
+        <order>250</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ba007c4dbef4b40a7d0d5f0cf9619c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Search Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_app_module_4ba007c4dbef4b40a7d0d5f0cf9619c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-04 16:03:59</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:52:30</sys_updated_on>
         <timeline_page/>
         <title>Search Requests</title>
         <uncancelable>false</uncancelable>
