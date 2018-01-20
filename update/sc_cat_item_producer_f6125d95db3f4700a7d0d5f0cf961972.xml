@@ -5,13 +5,13 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>true</can_cancel>
-        <category display_value="Equipment">031a7ca9db13cb00e93a9c27db96195f</category>
+        <category display_value="Qualified Ideas">a87afc69db13cb00e93a9c27db961941</category>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><span style="color: #ff0000;"><em><strong>Please include service area, facility, requestor information, vendor information and any additional requirements you have about the equipment.</strong></em></span></p>]]></description>
+        <description><![CDATA[<p>Submit your idea here...</p>]]></description>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Equipment Requisition</name>
+        <name>Qualified Idea</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -35,7 +35,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=266d02fddbdbcb00e93a9c27db9619e7&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f6125d95db3f4700a7d0d5f0cf961972&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -45,25 +45,25 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script/>
-        <short_description>Describe the type of equipment you want to request</short_description>
-        <show_variable_help_on_load>true</show_variable_help_on_load>
+        <short_description>Qualified Idea </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:07</sys_created_on>
+        <sys_created_on>2018-01-20 15:21:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>266d02fddbdbcb00e93a9c27db9619e7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Equipment Requisition</sys_name>
+        <sys_id>f6125d95db3f4700a7d0d5f0cf961972</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Qualified Idea</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>sc_cat_item_producer_266d02fddbdbcb00e93a9c27db9619e7</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_f6125d95db3f4700a7d0d5f0cf961972</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-20 15:41:58</sys_updated_on>
-        <table_name>x_bp3g_equip_req_equipment_request</table_name>
-        <template display_value="Equipment Request Template">d94c4ebddbdbcb00e93a9c27db9619ec</template>
+        <sys_updated_on>2018-01-20 15:23:35</sys_updated_on>
+        <table_name>x_bp3g_equip_req_qualified_idea</table_name>
+        <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
@@ -73,22 +73,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=266d02fddbdbcb00e93a9c27db9619e7"/>
-    <fx_price action="delete_multiple" query="id=266d02fddbdbcb00e93a9c27db9619e7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6125d95db3f4700a7d0d5f0cf961972"/>
+    <fx_price action="delete_multiple" query="id=f6125d95db3f4700a7d0d5f0cf961972"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>266d02fddbdbcb00e93a9c27db9619e7</id>
+        <id>f6125d95db3f4700a7d0d5f0cf961972</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:07</sys_created_on>
-        <sys_id>e26d02fddbdbcb00e93a9c27db9619e8</sys_id>
+        <sys_created_on>2018-01-20 15:21:32</sys_created_on>
+        <sys_id>b2521195db3f4700a7d0d5f0cf961985</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-28 12:25:07</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:21:32</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
@@ -96,16 +96,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>266d02fddbdbcb00e93a9c27db9619e7</id>
+        <id>f6125d95db3f4700a7d0d5f0cf961972</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-28 12:25:07</sys_created_on>
-        <sys_id>2e6d02fddbdbcb00e93a9c27db9619e8</sys_id>
+        <sys_created_on>2018-01-20 15:21:32</sys_created_on>
+        <sys_id>76521195db3f4700a7d0d5f0cf961986</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-28 12:25:07</sys_updated_on>
+        <sys_updated_on>2018-01-20 15:21:32</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
