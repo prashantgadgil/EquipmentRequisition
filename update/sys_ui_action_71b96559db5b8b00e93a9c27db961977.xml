@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments>Submits the request for approval</comments>
-        <condition/>
+        <condition>current.approval == 'not requested'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -37,7 +37,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71b96559db5b8b00e93a9c27db961977</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Submit Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -46,7 +46,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_action_71b96559db5b8b00e93a9c27db961977</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 14:23:26</sys_updated_on>
+        <sys_updated_on>2018-01-22 16:06:25</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
