@@ -18,29 +18,29 @@
         <order>600</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
-        <report display_value="Equipment Requests by Service Area">6cccbe59db1f8b00e93a9c27db96190a</report>
-        <roles>x_bp3g_equip_req.Equipment_Clinical_Approver,x_bp3g_equip_req.Equipment_IT_Approver,x_bp3g_equip_req.Equipment_Committee_Approver,x_bp3g_equip_req.Equipment_FDA_Approver</roles>
+        <report display_value="Equipment Requests Submissions Report">85407882db73c700a7d0d5f0cf96199d</report>
+        <roles>x_bp3g_equip_req.Equipment_Clinical_Approver,x_bp3g_equip_req.Equipment_Committee_Approver,x_bp3g_equip_req.Equipment_FDA_Approver,x_bp3g_equip_req.Equipment_IT_Approver</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-01-19 18:59:17</sys_created_on>
+        <sys_created_on>2018-01-22 20:49:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d82a70c5db374700a7d0d5f0cf9619e0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Requests By Service Area</sys_name>
+        <sys_id>5b70b882db73c700a7d0d5f0cf9619b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Requests By Submission Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>sys_app_module_d82a70c5db374700a7d0d5f0cf9619e0</sys_update_name>
+        <sys_update_name>sys_app_module_5b70b882db73c700a7d0d5f0cf9619b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-22 20:50:42</sys_updated_on>
+        <sys_updated_on>2018-01-22 20:50:12</sys_updated_on>
         <timeline_page/>
-        <title>Requests By Service Area</title>
+        <title>Requests By Submission Date</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
