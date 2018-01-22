@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Equipment Request Task" max_length="40" name="x_bp3g_equip_req_equipment_request_task" sizeclass="42" type="collection">
+    <element extends="task" label="Equipment Request Task" max_length="40" name="x_bp3g_equip_req_equipment_request_task" sizeclass="48" type="collection">
         <element label="Equipment Request" max_length="32" name="equipment_request" reference="x_bp3g_equip_req_equipment_request" reference_cascade_rule="delete" type="reference"/>
         <element default="Clinical_View" label="View" max_length="40" name="view" type="string"/>
     </element>

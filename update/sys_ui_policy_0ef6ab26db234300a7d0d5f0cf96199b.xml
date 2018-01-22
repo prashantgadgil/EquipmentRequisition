@@ -19,12 +19,10 @@
     //g_form.addInfoMessage("Generic Equipment Request UI Policy being applied...");
 	var approval = g_form.getValue('approval');
    // g_form.addInfoMessage("approval=" + approval);
-
 	g_form.setDisabled('number',true);
     g_form.setDisabled('approval',true);
-
 	//Requestor Fields
-	if ((approval!= "not requested")) {
+	if (approval!= "not requested") {
 		//g_form.addInfoMessage("Disabling Requestor Fields");
 		g_form.setDisabled("requestor_email", true);              
 		g_form.setDisabled('requestor_dept',true);
@@ -35,6 +33,8 @@
 		g_form.setDisabled('requestor',true);
 		g_form.setDisabled('requestor_phone',true);
 		g_form.setDisabled('service_area',true);
+		g_form.setDisabled('priority',true);
+		
 	}
   
 	//IT Fields
@@ -94,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ef6ab26db234300a7d0d5f0cf96199b</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Equipment Request - Generic UI Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
@@ -103,7 +103,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sys_ui_policy_0ef6ab26db234300a7d0d5f0cf96199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-12 15:35:09</sys_updated_on>
+        <sys_updated_on>2018-01-21 23:59:57</sys_updated_on>
         <table>x_bp3g_equip_req_equipment_request</table>
         <ui_type>10</ui_type>
         <view/>
