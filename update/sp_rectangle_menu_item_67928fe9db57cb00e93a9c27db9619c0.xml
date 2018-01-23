@@ -16,7 +16,7 @@
         <label>New Equipment Request</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item/>
+        <sc_cat_item display_value="Equipment Requisition">266d02fddbdbcb00e93a9c27db9619e7</sc_cat_item>
         <sc_category/>
         <short_description/>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
@@ -27,7 +27,7 @@
         <sys_created_on>2017-12-27 21:39:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>67928fe9db57cb00e93a9c27db9619c0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>New Equipment Request</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_67928fe9db57cb00e93a9c27db9619c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-27 21:41:32</sys_updated_on>
+        <sys_updated_on>2018-01-23 14:50:18</sys_updated_on>
         <table/>
         <type>sc_cat_item</type>
         <url/>

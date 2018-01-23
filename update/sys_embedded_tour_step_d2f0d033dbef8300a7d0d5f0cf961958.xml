@@ -6,7 +6,7 @@
         <action_target/>
         <action_target_ref display_value="738eccbfdbaf8300a7d0d5f0cf9619cb.6.xpath">79f014ffdbaf8300a7d0d5f0cf96197f</action_target_ref>
         <active>true</active>
-        <content><![CDATA[Enter Requestor's email address]]></content>
+        <content><![CDATA[Enter Requestor&#39;s email address]]></content>
         <guide display_value="New Equipment Request Guided Tour">738eccbfdbaf8300a7d0d5f0cf9619cb</guide>
         <implicit>false</implicit>
         <link/>
