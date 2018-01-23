@@ -18,100 +18,86 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-12 18:51:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b4a5b03edba34300a7d0d5f0cf96193d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
-            <sys_ui_section caption="Checklist" display_value="Checklist" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">34a5303edba34300a7d0d5f0cf961922</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-12-19 19:38:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0c4a590bdb438700e93a9c27db961929</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">4c4a190bdb438700e93a9c27db9619a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-12-19 19:57:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9b8e59cbdb438700e93a9c27db96198a</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="Clinical Questions" display_value="Clinical Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">578e59cbdb438700e93a9c27db961988</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-12-19 19:53:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d3cd11cbdb438700e93a9c27db9619db</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="IT Questions" display_value="IT Questions" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">dfcd918bdb438700e93a9c27db9619f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-12-20 15:14:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f867e99fdb4b8700e93a9c27db9619a6</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="Approval History" display_value="Approval History" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">fc67e517db4b8700e93a9c27db961921</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-12-26 21:01:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f6503d9ddb5b8b00e93a9c27db961948</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">ba503d9ddb5b8b00e93a9c27db961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-01-12 18:45:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5454f8badba34300a7d0d5f0cf961973</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_equip_req_equipment_request" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">884a190bdb438700e93a9c27db9619a9</sys_ui_form>
             <sys_ui_section caption="Activity" display_value="Activity" name="x_bp3g_equip_req_equipment_request" sys_domain="global" view="Default view">cc5478badba34300a7d0d5f0cf961932</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-12 18:51:15</sys_updated_on>
+            <sys_updated_on>2018-01-23 15:48:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_bp3g_equip_req_equipment_request</name>
