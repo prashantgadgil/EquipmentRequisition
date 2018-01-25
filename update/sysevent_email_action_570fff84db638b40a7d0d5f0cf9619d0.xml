@@ -6,7 +6,7 @@
         <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Service Catalog">be9d02137f232200ee2e108c3ffa9155</category>
+        <category display_value="Service Catalog" name="Service Catalog">be9d02137f232200ee2e108c3ffa9155</category>
         <collection>x_bp3g_equip_req_equipment_request</collection>
         <condition/>
         <content_type>text/html</content_type>

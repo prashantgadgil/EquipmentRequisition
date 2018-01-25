@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-01-15 21:55:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7c45a456db3bc700a7d0d5f0cf961916</sys_id>
+        <sys_id>96ccfa36db7f0300a7d0d5f0cf961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_bp3g_equip_req_equipment_request_data_load</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7c45a456db3bc700a7d0d5f0cf961916</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_96ccfa36db7f0300a7d0d5f0cf961990</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-01-15 21:55:24</sys_updated_on>
     </ua_table_licensing_config>
