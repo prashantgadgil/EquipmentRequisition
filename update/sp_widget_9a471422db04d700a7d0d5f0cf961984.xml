@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.my-red-class {
+ font:20px;
+ color:red;
+}
+.my-green-class {
+ font:30px;
+ color:green;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget showing basic information of an equipment request.</description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>equipment-request-widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Equipment Request Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+   data.number = "EQU0001088";
+   data.title = "Equipment Title Goes Here";
+	 data.items = [];
+	 var gr = new GlideRecord("x_bp3g_equip_req_equipment_request");
+	 gr.query();
+	 gr.addQuery('number','EQU0001088');
+	 if(gr.next()) {
+		 data.title = gr.getValue('title');
+		 /*
+     if ($sp.canReadRecord(gr)) {
+        data.items.push(gr.getDisplayValue("name"));
+    }
+		*/
+	 }
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-05 18:32:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a471422db04d700a7d0d5f0cf961984</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Equipment Request Widget</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sp_widget_9a471422db04d700a7d0d5f0cf961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-05 19:12:30</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <p>Enter Equipment Request Number:<input type="text" ng-model="data.number"></p>
+	<p>You wrote: {{data.number}}</p>
+  <button ng-click="">Submit</button>
+  
+  <br><br>
+  
+  <span class="my-green-class">Equipment Request Number:</span><br>
+  <span class="my-red-class">{{data.number}}</span><br>
+  <span class="my-red-class">{{data.title}}</span>
+</div>]]></template>
+    </sp_widget>
+</record_update>
