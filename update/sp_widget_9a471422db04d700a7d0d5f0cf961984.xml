@@ -4,7 +4,20 @@
         <client_script><![CDATA[function() {
   /* widget controller */
   var c = this;
-}]]></client_script>
+	c.selectNumber = function(newNumber) {
+		console.log("New Number = " + newNumber);
+		c.data.number = newNumber;
+		c.server.update();
+		//c.server.refresh();
+	}
+	/*
+  spUtil.recordWatch($scope, "x_bp3g_equip_req_equipment_request", "", function(name, data) {
+    console.log("equipment request updated")
+		c.server.refresh();
+  });
+	*/
+}
+]]></client_script>
         <controller_as>c</controller_as>
         <css>.my-red-class {
  font:20px;
@@ -30,21 +43,32 @@
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
-   data.number = "EQU0001088";
-   data.title = "Equipment Title Goes Here";
-	 data.items = [];
-	 var gr = new GlideRecord("x_bp3g_equip_req_equipment_request");
+	//data = {}; 
+	data.items = [];
+	 data.number = input ? input.number : "EQU0001088";
+  //if(input) { gs.addInfoMessage("input.number = " +  input.number);}
+	//gs.addInfoMessage("data.number = " +  data.number);
+	var gr = new GlideRecord("x_bp3g_equip_req_equipment_request");
+	 gr.addQuery('number',data.number);
 	 gr.query();
-	 gr.addQuery('number','EQU0001088');
 	 if(gr.next()) {
 		 data.title = gr.getValue('title');
+		 data.price = $sp.getField(gr,'price').value;
+		 data.model_number = $sp.getField(gr,'model_number').value;
+		 data.vendor_name = $sp.getField(gr,'vendor_name').value;
+		 data.vendor_website = $sp.getField(gr,'vendor_website').value;
+		 data.service_area = $sp.getField(gr,'service_area').value;
+		 data.facility = $sp.getField(gr,'facility').display_value;
+		 data.requestor = $sp.getField(gr,'requestor').display_value;
+		 
+		 //date.price = $sp.getField(gr,'price').value;
+		 
 		 /*
      if ($sp.canReadRecord(gr)) {
         data.items.push(gr.getDisplayValue("name"));
     }
 		*/
-	 }
-	
+	 }	
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
@@ -52,7 +76,7 @@
         <sys_created_on>2018-02-05 18:32:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9a471422db04d700a7d0d5f0cf961984</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Equipment Request Widget</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -60,18 +84,25 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_widget_9a471422db04d700a7d0d5f0cf961984</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-05 19:12:30</sys_updated_on>
+        <sys_updated_on>2018-02-06 16:09:30</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
   <p>Enter Equipment Request Number:<input type="text" ng-model="data.number"></p>
 	<p>You wrote: {{data.number}}</p>
-  <button ng-click="">Submit</button>
+  <button ng-click="c.selectNumber(data.number)">Submit</button>
   
   <br><br>
   
-  <span class="my-green-class">Equipment Request Number:</span><br>
-  <span class="my-red-class">{{data.number}}</span><br>
-  <span class="my-red-class">{{data.title}}</span>
+  <span class="my-green-class">Number:</span><span class="my-red-class">{{data.number}}</span><br>
+  <span class="my-green-class">Title:</span><span class="my-red-class">{{data.title}}</span><br>
+  <span class="my-green-class">Service Area:</span><span class="my-red-class">{{data.service_area}}</span><br>
+  <span class="my-green-class">Faility:</span><span class="my-red-class">{{data.facility}}</span><br>
+  <span class="my-green-class">Requestor:</span><span class="my-red-class">{{data.requestor}}</span><br>
+  <span class="my-green-class">Vendor Name:</span><span class="my-red-class">{{data.vendor_name}}</span><br>
+  <span class="my-green-class">Vendor Website:</span><span class="my-red-class">{{data.vendor_website}}</span><br>
+  <span class="my-green-class">Model Number:</span><span class="my-red-class">{{data.model_number}}</span><br>
+  <span class="my-green-class">Price:</span><span class="my-red-class">{{data.price}}</span><br>
+
 </div>]]></template>
     </sp_widget>
 </record_update>
