@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="x_bp3g_equip_req_equipment_request">service_area=Texas^EQ<item endquery="false" field="service_area" goto="false" newquery="false" operator="=" or="false" value="Texas"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>50</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>xs</size>
+        <sp_column display_value="1">3aa434fedbc8d700a7d0d5f0cf96194e</sp_column>
+        <sp_page display_value="learn_page">ed4b90e2db04d700a7d0d5f0cf96196d</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-06 19:14:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>56ca613adb4cd700a7d0d5f0cf961979</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Texas Requests</sys_name>
+        <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
+        <sys_update_name>sp_instance_vlist_56ca613adb4cd700a7d0d5f0cf961979</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-06 19:43:49</sys_updated_on>
+        <table>x_bp3g_equip_req_equipment_request</table>
+        <title>Texas Requests</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "5",
+		"displayValue": "5"
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "title,service_area,facility,requestor",
+		"displayValue": "title,service_area,facility,requestor"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+</record_update>
