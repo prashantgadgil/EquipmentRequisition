@@ -8,12 +8,15 @@
 		console.log("New Number = " + newNumber);
 		c.data.number = newNumber;
 		c.server.update();
+		spUtil.addTrivialMessage("This is a trivial Message");
 		//c.server.refresh();
 	}
 	
   spUtil.recordWatch($scope, "x_bp3g_equip_req_equipment_request", "", function(name, data) {
     console.log("equipment request table updated")
-		c.server.refresh();
+		console.log ("name.data=" + name.data);
+		//console.log ("data=" + data);
+		//c.server.refresh();
   });
 	
 }
@@ -84,7 +87,7 @@
         <sys_created_on>2018-02-05 18:32:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9a471422db04d700a7d0d5f0cf961984</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>Equipment Request Widget</sys_name>
         <sys_package display_value="Equipment Requisition" source="x_bp3g_equip_req">9ef45507db438700e93a9c27db961973</sys_package>
         <sys_policy/>
@@ -92,7 +95,7 @@
         <sys_scope display_value="Equipment Requisition">9ef45507db438700e93a9c27db961973</sys_scope>
         <sys_update_name>sp_widget_9a471422db04d700a7d0d5f0cf961984</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-07 15:34:15</sys_updated_on>
+        <sys_updated_on>2018-02-08 04:12:21</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
   <p>Enter Equipment Request Number:<input type="text" ng-model="data.number"></p>
